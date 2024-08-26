@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+
+
+body
+{
+	background-color:black;
+}
+
+ #search {
+      width: 80%;
+      height: 40px;
+      border-radius: 8px;
+      margin-left: 5%;
+    }
+    
+    #bsearch {
+      width: 5%;
+      height: 40px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    #icon {
+     position: relative;
+    }
+    
+    a {
+      text-decoration: none;
+      color: white;
+      font-size:32px;
+    }
+    
+    .main {
+      background-color: rgb(60, 61, 55);
+      padding-bottom: 0.5%;
+      position:relative;
+      top:-10px;
+      width:100%;
+    }
+
+ .card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.card-overview {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-release-date {
+    font-size: 14px;
+    color: #888;
+    margin-top: 8px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
